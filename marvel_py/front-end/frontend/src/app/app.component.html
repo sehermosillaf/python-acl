@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <ul class="navbar-nav">
+      <li class="nav-item">
+          <a routerLink="juegos" routerLinkActive="active" class="nav-link">Espacio de pruebas</a>
+      </li>
+  </ul>
+</nav>
+<div class="box">
+  <form class="login" method="POST" action="/login">
+    <div class="form-group">
+      <label for="InputEmail">Email</label>
+      <input type="email" class="form-control" id="txtEmail" name="txtEmail" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+      <label for="InputPassword">Contraseña</label>
+      <input type="password" class="form-control" id="txtPass" name="txtPass">
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
+    </div>
+    <input type="submit" class="btn btn-primary" value="Iniciar Sesión">
+    <a type="button" style="margin-left: 10px;" class="btn btn-primary">Registrarse</a>
+  </form>
+</div>

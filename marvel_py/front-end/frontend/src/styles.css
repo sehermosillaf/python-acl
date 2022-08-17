@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-size: cover;
+    background-position: center center;
+    background-image: url(https://initiate.alphacoders.com/images/969/cropped-1920-1080-969585.jpg?9852);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+.box {
+    background: rgba(250, 250, 250, 0.603);
+    width: 420px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 2%;
+}
+
+.box .login {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+li {
+    letter-spacing: 2vmax;
+    letter-spacing: 0vmin;
+    font-weight: 600;
+    margin: 0;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+}
